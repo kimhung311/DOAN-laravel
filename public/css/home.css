@@ -1,0 +1,95 @@
+.list-product-promotion {
+  padding: 10px;
+  border: solid 1px #eee;
+}
+.list-product-promotion .promotion-title {
+  border-bottom: solid 1px #eee;
+  padding: 10px;
+}
+.list-product-promotion .promotion-detail li {
+  list-style: none outside none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.list-product-promotion .promotion-detail li .product-thumbnail {
+  padding-right: 15px;
+  flex: 25%;
+}
+.list-product-promotion .promotion-detail li .product-content {
+  flex: 75%;
+}
+.register-mail {
+  padding: 10px;
+  border: solid 1px #eee;
+  text-align: center;
+  margin-top: 15px;
+}
+.register-mail .form-group .input-email {
+  margin-bottom: 15px;
+}
+.register-mail .form-group .btn-register {
+  margin-bottom: 15px;
+}
+
+.menu-left {
+  border: solid 1px #eee;
+}
+.menu-left .title {
+  background-color: #eee;
+  padding: 10px;
+}
+.menu-left .list {
+  list-style: none outside none;
+}
+.menu-left .list li {
+  margin-bottom: 10px;
+  border-bottom: solid 1px #eee;
+  padding: 10px;
+}
+.menu-left .list li:last-child {
+  border-bottom: none;
+}
+
+.list-product {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+.list-product li {
+  margin-bottom: 10px;
+}
+
+.big-promotion {
+  margin-top: 15px;
+  border: solid 1px #eee;
+  padding: 15px;
+}
+.big-promotion .big-promotion-head {
+  position: relative;
+  padding: 0 50px;
+}
+.big-promotion .big-promotion-head .big-promotion-title {
+  text-align: center;
+}
+.big-promotion .big-promotion-head .carousel-control-prev-custom {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.big-promotion .big-promotion-head .carousel-control-next-custom {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.big-promotion #carousel-big-promotion .carousel-item-content {
+  display: flex;
+  flex-direction: row;
+}
+.big-promotion #carousel-big-promotion .carousel-item-content .left {
+  flex: 50%;
+}
+.big-promotion #carousel-big-promotion .carousel-item-content .right {
+  flex: 50%;
+  padding-left: 15px;
+}
